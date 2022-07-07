@@ -1,0 +1,196 @@
+html,body{
+    margin: 0 ; 
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+
+   
+}
+p{
+    font-size: smaller;
+    color: rgb(117, 117, 117);
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: xx-large;
+}
+
+.banner{
+    margin-top: 0;
+    height: 500px;
+    background-image: url("images/donation13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.bgimg{
+   
+    text-align: center;
+    color: white;
+    width: fit-content;
+    margin:250px auto ;
+    
+   
+
+}
+.text-center{
+    text-align: center;
+}
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,red);
+    padding: 6px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.button:hover{
+    background-image: linear-gradient(rgb(120, 4, 4));
+    box-shadow:2px 2px 2px tomato ;
+    box-s
+}
+
+.donation{
+    margin:100px auto 100px;
+}
+.donation-txt{
+    text-align: center;
+}
+
+.amount{
+  text-align: center;
+  margin: 50px 0;
+
+}
+
+.amount-link{
+
+    background-color: rgb(195, 193, 193);
+    padding:20px;
+    margin-left: 20px;
+   
+    border-radius:5px;
+    color:rgb(53, 54, 54);
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.amount-link:hover{
+
+    border:2px solid tomato;
+    background-color: rgb(238, 170, 158);
+    color: rgb(184, 50, 26);
+    
+
+}
+
+.amount-input{
+    border:none ;
+    border-bottom: 1px solid grey;
+    width:40%;
+    margin-left: 370px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+input[type=text]:focus{
+
+    outline: none;
+    border-bottom: 2px solid tomato;
+}
+
+.donate-plan{
+    text-align: center;
+}
+
+.donate-plan-card{
+    display: flex;
+    margin-top: 30px;
+    margin-left:215px;
+}
+
+.card{
+    text-align: left;
+    width:20%;
+    padding:20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    height:200px ;
+}
+#card-1{
+    background-color: rgb(204, 236, 229,0.5);
+
+}
+#card-1{
+    background-color: rgb(204, 236, 229,0.5);
+
+}
+
+#card-2{
+    background-color: rgba(244, 197, 242, 0.396);
+
+}
+#card-3{
+    background-color: rgba(243, 240, 209, 0.396);
+
+}
+.banner-bottom{
+    display:flex ;
+    margin-top:100px;
+    margin-left: 180px;
+}
+.half-width{
+    width:35%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img{
+    width: 80%;
+}
+
+.newsletter{
+    text-align: center;
+    margin-top: 60px;
+   
+
+}
+
+.email{
+    margin-left: 300px;
+    width:50%;
+    height: 100px;
+    margin-top: 30px;
+   padding: auto;
+    background-color: rgba(245, 207, 160, 0.564);
+    text-align: center;
+}
+.emailinput{
+  margin-top: 30px;
+  border:none;
+  background-color: rgb(247, 246, 246);
+  height:30px;
+  border-radius: 5px;
+  margin-right: -5px;
+  padding-left: 8px;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(24, 25, 33);
+    padding:15px;
+    color: azure;
+}
+
+input[type=email]:focus{
+
+    outline: none;
+    border:1px solid tomato;
+
+}
